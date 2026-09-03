@@ -2,7 +2,7 @@
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/
 
 name = "nahan"
-main = "worker.js"
+main = "_worker.js"
 compatibility_date = "2024-03-01"
 
 # Automatically run the local dev server on a predictable port
@@ -15,7 +15,7 @@ port = 8787
 [[d1_databases]]
 binding = "IOT_DB"
 database_name = "nahan-db"
-database_id = "YOUR_D1_DATABASE_ID_HERE"
+database_id = ""
 
 # Environment Variables & Secrets (Optional)
 # If you prefer to bind your Relay IP as an environment variable instead of using the panel settings:
